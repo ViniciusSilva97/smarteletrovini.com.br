@@ -1,0 +1,7 @@
+# Impedir a listagem do diretório
+Options -Indexes
+
+# Restringir execução de scripts PHP
+<FilesMatch "\.php$">
+    deny from all
+</FilesMatch>
